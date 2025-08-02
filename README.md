@@ -1,2 +1,3 @@
-# email-alert-report-automation
-Automated email alert parser and Excel report generator for critical system events, developed for Multilink Pvt. Ltd.
+# 📬 Email Alert Report Automation
+
+An automated email monitoring and Excel reporting tool used at Multilink Pvt. Ltd. to parse daily critical alerts from Gmail and generate structured reports for operational visibility.
