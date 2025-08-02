@@ -317,7 +317,7 @@ try:
         )
 
         print("   ✅ Daily Status Alerts formatted with spacing.")
-          # --- Summary Sheet ---
+          # --- Summary Sheet --
         summary_data = [
             ["Total Emails Processed", len(email_ids)],
             ["Total Daily Status Alerts", len(daily_df)],
@@ -338,5 +338,6 @@ try:
     print("🔚 Logged out from Gmail.")
 except Exception as e:
     print(f"⚠️ Could not logout cleanly: {e}")
+
 
 
