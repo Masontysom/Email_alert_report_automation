@@ -61,7 +61,6 @@ This executable is then scheduled to run **automatically every day at 11:00 AM**
 * `imaplib`, `email`, `dotenv`, `re`, `bs4`, `pandas`, `xlsxwriter`
 * Windows Task Scheduler
 * PowerShell scripting
-* Acronis Cyber Protect script management
 
 ---
 
@@ -72,12 +71,6 @@ This executable is then scheduled to run **automatically every day at 11:00 AM**
 * Triggers the executable every day at **11:00 AM**.
 * Ensures no manual intervention is needed.
 * `.env` file is stored alongside `.exe` in the same `dist/` directory for secure credential management.
-
-### ✅ Acronis Panel Execution
-
-* Uses PowerShell to `Set-Location` to the directory and execute `.\Email_Report_Generator.exe`
-* Useful for IT admins to trigger or monitor the job remotely via the Acronis Console.
-
 ---
 
 ## 📅 Workflow Summary
