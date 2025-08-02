@@ -2,7 +2,7 @@
 
 An end-to-end automated solution built at **Company Pvt. Ltd.** to parse Gmail alerts and generate visually formatted Excel reports for daily monitoring—replacing a previously manual process.
 
-## 🧩 Project Background
+## 🧩 Project Background.
 
 I was initially assigned the responsibility of checking critical backup alerts and daily status emails manually each day at 11 AM. This involved:
 
