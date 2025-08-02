@@ -246,7 +246,7 @@ daily_df = pd.DataFrame(daily_status_rows)
 
 # Save to Excel
 # Save to Excel
-output_dir = r"\\K2\g\maildocuments\Acronics_Daily_Report"
+output_dir = r"\\path\to\save\_Daily_Report"
 os.makedirs(output_dir, exist_ok=True)
 base_filename = f"Daily_Status_Alerts_Report_{datetime.today().strftime('%Y%m%d')}"
 output_file = os.path.join(output_dir, base_filename + ".xlsx")
@@ -338,4 +338,5 @@ try:
     print("🔚 Logged out from Gmail.")
 except Exception as e:
     print(f"⚠️ Could not logout cleanly: {e}")
+
 
